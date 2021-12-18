@@ -11,32 +11,23 @@ Python Packages were used: pyTelegramBotAPI, psycopg2, datetime
 What was used:
 
 ```Python
-# Определение недели нижняя/верхняя
 def for_weeks():
    
-# Начало работы бота и задание кнопок
 @bot.message_handler(commands=['start'])
 def start(message):
     
-# Вывод недели
 @bot.message_handler(commands=['week'])
 def start_message(message):
     
-
-# Вывод кнопки /help
 @bot.message_handler(commands=['help'])
 def start_message(message):
     
-# Вывод кнопки /mtuci
 @bot.message_handler(commands=['mtuci'])
 def start_message(message):
     
-
-# Вывод расписания по дням недели и на неделю
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
     
-# Запрос бд для одного дня
 def print_timetable(day, num_week):
 ```
 **Resalt my work**
