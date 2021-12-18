@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+     <label for="username">Username</label>
+            {%if username or first_time%}
+        <input type="text" name="username" value={{username}}>
+	{%else%}
+        <input type="text" name="username" style="border: 2px solid red">
+            <font color="red"><p>Введите имя пользователя</p></font>
+	{%endif%}
+ </p>
+ <p>
+     <label for="password">Password</label>
+     {%if password or first_time%}
+        <input type="password" name="password" value={{password}}>
+	{%else%}
+        <input type="password" name="password" style="border: 2px solid red">
+      <font color="red"><p>Введите пароль</p></font>
+	{%endif%}
+ </p>
+ <p>
+     <input type="submit" value="login" name="login">
+  <input type="submit" value="registration" name="registration">
+ </p>
+
+ </form>
+
+{%if dateerror%}
+    <font color="red" face="InformTT"><h3><p>Не удаётся войти.</p></h3></font>
+     <font color="red" face="InformTT"><p>Пожалуйста, проверьте правильность написания <b>логина</b> и <b>пароля</b>.</p></font>
+{%endif%}
+</body>
+</html>

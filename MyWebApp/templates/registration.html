@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="" method="post">
+      <p>
+    <label for="name">Your name:</label>
+    {%if name or first_time%}
+        <input type="text" name="name" value={{name}}>
+	{%else%}
+        <input type="text" name="name" style="border: 2px solid red">
+            <font color="red"><p>Введите имя пользователя</p></font>
+	{%endif%}
+     </p>
+        <p>
+	    <label for="login">Login:</label>
+
+	    {%if login or first_time%}
+        <input type="text" name="login" value={{login}}>
+	{%else%}
+        <input type="text" name="login" style="border: 2px solid red">
+            <font color="red"><p>Введите логин</p></font>
+	{%endif%}
+	     </p>
+	<p>
+	    <label for="password">Password:</label>
+	    {%if password or first_time%}
+        <input type="password" name="password" value={{password}}>
+	{%else%}
+        <input type="password" name="password" style="border: 2px solid red">
+            <font color="red"><p>Введите пароль</p></font>
+	{%endif%}
+	</p>
+	<p>
+	    <input type="submit" value="Sign In">
+	</p>
+    </form>
+{%if not Len%}
+    <font color="red" face="InformTT"><h3><p>Пароль слишком короткий</p></h3></font>
+{%endif%}
+</body>
+</html>
