@@ -20,6 +20,4 @@ def index():
 def dict():
 ```
 
-**Resalt my work**
-
 
