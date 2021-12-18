@@ -5,7 +5,7 @@ The translator web-application using Microsoft Azure translates from Russian int
 Python version: Python 3.9
 
 
-Python Packages were used: Flask, 
+Python Packages were used: Flask
 
 
 What was used:
