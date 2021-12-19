@@ -2,9 +2,6 @@
 [Calculator](https://github.com/ElenaGolubeva/Labs-MTUCI/tree/main/Calculator)
 
 
-[Microblog](https://github.com/ElenaGolubeva/Labs-MTUCI/tree/main/Microblog)
-
-
 [MyWebApp](https://github.com/ElenaGolubeva/Labs-MTUCI/tree/main/MyWebApp)
 
 
