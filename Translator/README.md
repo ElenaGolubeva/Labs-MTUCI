@@ -16,4 +16,5 @@ What was used:
 
 **Resalt my work**
 
-![2](https://user-images.githubusercontent.com/90320554/146654192-37aa5abd-dc24-4c5f-8cf8-cb1bda1e64b3.png)
+![Снимок экрана (1330)](https://user-images.githubusercontent.com/90320554/146911883-abec8091-9d57-4d2e-b21a-b2e437538daa.png)
+
